@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.4.5'
 
   spec.add_dependency "rails", ">= 5.1"
-  spec.add_dependency 'graphql', '~> 1.9', '>= 2.0.24'
+  spec.add_dependency 'graphql', '>= 2.0.24'
   spec.add_dependency 'devise', '~> 4.6', '>= 4.6.2'
   spec.add_dependency 'jwt', '~> 1.5'
 
